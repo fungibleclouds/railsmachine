@@ -9,6 +9,6 @@
 		"recipe[build-essential]",
 		"recipe[openssl]",
         "recipe[mysql::server]",
-        "recipe[railsmachine]"
+        "recipe[my_app]"
 	]
 }

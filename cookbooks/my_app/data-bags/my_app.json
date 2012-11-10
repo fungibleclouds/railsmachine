@@ -1,0 +1,19 @@
+{
+  "name": "my_app_run_migrations",
+  "description": "Run db:migrate on demand for my_app",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+    "apps": {
+      "my_app": {
+        "production": {
+          "run_migrations": true
+        }
+      }
+    }
+  },
+  "chef_type": "role",
+  "run_list": [
+  ]
+}
