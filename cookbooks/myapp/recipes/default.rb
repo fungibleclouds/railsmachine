@@ -21,6 +21,8 @@ application "myapp" do
       password "password"
     end
 
+    rollback_on_error true
+
     gems ["bundler"]
 
     # assets are precompiled and in git, change to true if not
